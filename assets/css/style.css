@@ -1,9 +1,3 @@
-/**
-* Template Name: Arsha - v2.3.0
-* Template URL: https://bootstrapmade.com/arsha-free-bootstrap-html-template-corporate/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
 
 /*--------------------------------------------------------------
 # General
@@ -949,12 +943,12 @@ section {
 /*--------------------------------------------------------------
 # Portfolio
 --------------------------------------------------------------*/
-.portfolio #portfolio-flters {
+.portfolio #portfolio-filters {
   list-style: none;
   margin-bottom: 20px;
 }
 
-.portfolio #portfolio-flters li {
+.portfolio #portfolio-filters li {
   cursor: pointer;
   display: inline-block;
   margin: 10px 5px;
@@ -968,7 +962,7 @@ section {
   font-family: "Poppins", sans-serif;
 }
 
-.portfolio #portfolio-flters li:hover, .portfolio #portfolio-flters li.filter-active {
+.portfolio #portfolio-filters li:hover, .portfolio #portfolio-filters li.filter-active {
   background: #47b2e4;
   color: #fff;
 }
@@ -1034,6 +1028,18 @@ section {
 
 .portfolio .portfolio-item:hover .portfolio-info {
   opacity: 1;
+}
+.view-all-btn{
+  margin-left: 25px;
+  color: #444444;
+  border-radius: 50px;
+  padding: 6px 25px 7px 25px;
+  white-space: nowrap;
+  transition: 0.3s;
+  font-size: 14px;
+  display: inline-block;
+  border: 2px solid #47b2e4;
+  font-weight: 600;
 }
 
 /*--------------------------------------------------------------
